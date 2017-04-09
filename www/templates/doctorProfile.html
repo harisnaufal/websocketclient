@@ -1,0 +1,68 @@
+<ion-view view-title="Doctor Profile">
+  <ion-content class="padding">
+
+    <div class="profile">
+
+      <div class="list card">
+        <div class="item item-avatar">
+          <img src={{profileDoctor.detail.image}}>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-50">
+          Name
+        </div>
+        <div class="col col-50">
+          : {{profileDoctor.detail.name}}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-50">
+          Age
+        </div>
+        <div class="col col-50">
+          : {{profileDoctor.detail.age}}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-50">
+          Clinical Address
+        </div>
+        <div class="col col-50">
+          : {{doctorProfile.detail.clinicalAddress}}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-50">
+          SIP
+        </div>
+        <div class="col col-50">
+          : {{doctorProfile.detail.sip}}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-50">
+          Specialist
+        </div>
+        <div class="col col-50">
+          : {{profileDoctor.detail.sepcialist}}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-50">
+          Count Patient
+        </div>
+        <div class="col col-50">
+          : {{profileDoctor.detail.countPatient}}
+        </div>
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view>
